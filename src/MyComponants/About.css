@@ -1,0 +1,48 @@
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://cdn.photoroom.com/v1/assets-cached.jpg?path=backgrounds_v3/black/Photoroom_black_background_extremely_fine_texture_only_black_co_c756a0c0-4895-4275-845b-7a20f085e432.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  margin: 100px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: rgba(61, 32, 6, 0.057);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(18, 79, 177, 0.5);
+  color: #fff;
+}
+
+h2, h3, p, ul, li {
+  color: #09f9f9f6;
+}
+h2{
+    text-align: center;
+}
+
+.gradient-text {
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(168,189,104,1) 61%, rgba(253,187,45,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,11 @@
+.footer {
+    position: relative;
+    top: 80vh;
+    width: 100%;
+    border: 2px solid red;
+    background-color: #343a40; /* Dark background color */
+    color: #ffffff; /* White text color */
+    padding: 10px 0; /* Padding for top and bottom */
+    text-align: center;
+  }
+  
